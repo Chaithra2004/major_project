@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Heat Sentinel Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>Heat Sentinel Dashboard</h1>
+
+    <label for="wardSelect">Select Taluk:</label>
+    <select id="wardSelect">
+        <option value="">--Select--</option>
+    </select>
+
+    <!-- Heatwave Percentage Box -->
+    <div id="heatwaveBox" class="heatwave-box">
+        Heatwave: --%
+    </div>
+
+    <!-- Bar Chart -->
+    <canvas id="tempChart" width="600" height="400"></canvas>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+select {
+    padding: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.heatwave-box {
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #e74c3c;
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(231, 76, 60, 0.1);
+    color: #e74c3c;
+}
